@@ -1,4 +1,2 @@
-- name: latest index.html file is present
-  template:
-    src: files/index.html
-    dest: /var/www/html/
+- name: Upgrade all apt packages
+  apt: upgrade=dist force_apt_get=yes
