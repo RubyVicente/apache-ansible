@@ -1,0 +1,4 @@
+- name: apache2 package is present
+  apt:
+    name: apache2
+    state: latest

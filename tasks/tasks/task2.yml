@@ -1,0 +1,3 @@
+    - name: latest index.html file is present
+      template:src: files/index.html
+               dest: /var/www/html/
